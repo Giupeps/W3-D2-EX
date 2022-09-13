@@ -1,61 +1,41 @@
-let nome = "Mirtilla";
-console.log(nome);
-var utente = "cliente";
-console.log(utente);
-const PI = 3.14;
-console.log(PI);
+let nome = "Giuseppe"
+console.log(nome)
+var cognome = "Di Pisa"
+console.log(cognome)
+const età ="29"
+console.log(età)
 
-//nome = "Lilla";
-console.log(nome);
-utente = "amministratore";
-console.log(utente);
-//PI = 4;
-//console.log(PI);
+// let nome = "Mario" Errore
+// console.log(nome)
+nome = "Mario" // Aggiorna il nome
+console.log(nome)
+var cognome = "Rossi"
+console.log(cognome)
+// const età = "18"  dà errore
+// console.log(età)
 
-let primoLavoro = "developing";
-let secondoLavoro = "formazione";
+let attoreUno = "Gianni"
+let attoreDue = "Pinotto"
+console.log('Di solito guardo ' +  attoreUno + " & " + attoreDue)
 
-let lavoro = primoLavoro + " e " + secondoLavoro;
+let right = true
+let wrong = false
+console.log ('Gianni e pinotto sono amici:' +right)
+console.log ('Gianni e Pinotto non sono amici:' +wrong)
 
-console.log('io mi occupo di: ' + lavoro);
-console.log('io mi occupo di: ' + primoLavoro + " e " + secondoLavoro);
+console.log (`Il mio nome è ${attoreUno}, il mio amico si chiama ${attoreDue}`)
 
-let JS = true;
-console.log('Let JS: ' + JS);
+const me = `Il mio nome è ${attoreUno} e ho: ${età} anni`
+console.log (me)
 
-let anno;
-console.log(anno);
+let one = 5
+let two = 5 + 3
+let three = 10 - 3
 
-anno = 1991;
+console.log(one)
+console.log(two)
+console.log(three)
+console.log (three+one-two)
+console.log (three+one*two)
+console.log (three+(one*two))
 
-const annoAttuale = 2021;
-
-let anniMirtilla = annoAttuale - anno;
-console.log(anniMirtilla);
-
-console.log(nome + " ha: " + anniMirtilla + " anni");
-
-let a = 10 + 5;
-let b = 3;
-let c = 10;
-let somma = b + c + 2;
-console.log(somma);
-
-c++;
-console.log(c);
-a--;
-console.log(a);
-
-let nomePet = "Billo";
-let colorePet = "rosso";
-const pet = "il nome del pet: " + nomePet + "e il suo colore è: " + colorePet;
-console.log(pet);
-
-// sintassi letterale con backtick -> apice inverso
-const pet1 = `il nome del pet: ${nomePet}  e il suo colore è: ${colorePet}`;
-console.log(pet1);
-
-console.log('string con \n\ righe \n\ multiple');
-console.log(`string con 
-righe 
-multiple`);
